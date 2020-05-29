@@ -15,7 +15,7 @@ class FlashChat extends StatelessWidget {
           body1: TextStyle(color: Colors.black54),
         ),
       ),
-      initialRoute: '/login',
+      initialRoute: WelcomeScreen.id,
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
         ChatScreen.id: (context) => ChatScreen(),
